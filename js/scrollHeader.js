@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.onscroll = function() {
         decorHide()
     };
-    decorHide()
+
 
     function decorHide() {
         if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
