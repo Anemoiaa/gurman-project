@@ -225,6 +225,7 @@ body {
 .products__container {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .products__box {
@@ -302,8 +303,8 @@ body {
 
 .product-info {
     position: absolute;
-    top: 1416px;
-    right: 0;
+    top: 0;
+    right: -180px;
     width: 469px;
     padding: 24px 24px 160px 24px ;
     background-color: #e7e2d1;
