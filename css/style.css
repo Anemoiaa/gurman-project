@@ -277,6 +277,18 @@ body {
     font-size: 20px;
     line-height: 1.15;
     cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.desc-btn:hover,
+.desc-btn:hover > .desc-btn__link {
+    border-color: #8C2529;
+    color: #8C2529;
+}
+
+.desc-btn:hover {
+    transform: rotate(-5deg);
 }
 
 .desc-btn__link {
