@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: 'tenor_sansregular';
+    src: url('../fonts/tenorsans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/tenorsans-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'mr_HamiltoneG';
+	src:url('../fonts/mr_hamiltoneg.woff2') format('woff2'),
+		url('../fonts/mr_hamiltoneg.woff') format('woff');
+}
+
+:root {
+    --font-hamiltoneG: 'mr_HamiltoneG';
+    --font-tenor: 'tenor_sansregular';
+
+    --color-black: #231917;
+    --color-green: #6f7a42;
+    --color-cream: #fbf6e5;
+}
+
+body {
+    font-family: var(--font-tenor);
+    font-size: 24px;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: var(--color-cream);
+}
+
+[class*="__container"] {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+
