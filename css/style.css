@@ -379,3 +379,41 @@ body {
     line-height: 1.15;
     color: rgba(35, 25, 23, 0.5);
 }
+
+.footer {
+    margin-top: 48px;
+    background-color: var(--color-black);
+    padding: 62px 280px 63px 194px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__soc-media p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.16;
+    color: #fbf6e5;
+}
+
+.soc-media__list {
+    margin-top: 32px;
+    display: flex;
+    gap: 36px;
+}
+
+.logo-footer__image {
+    width: 250px;
+    height: auto;
+}
+
+.footer-menu__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.15;
+
+    color: #fbf6e5;
+}
