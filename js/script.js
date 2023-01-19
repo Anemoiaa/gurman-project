@@ -4,4 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
     productInfoModalClose.addEventListener('click', () => {
         productInfo.style.display = 'none';
     });
-})
+
+    const productInfoOpenBtns = document.querySelectorAll('.desc-btn__link');
+    productInfoOpenBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            productInfo.style.display = 'block';
+        });
+    });
+});
