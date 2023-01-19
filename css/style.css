@@ -660,21 +660,17 @@ body {
     position: absolute;
     top: 1023px;
     right: 0;
-}
-
-.contact-us__btn {
     font-weight: 400;
     font-size: 32px;
     line-height: 1.15;
     text-decoration-line: underline;
     color: var(--color-black);
+    background-color: transparent;
 }
 
 @media (max-width: 1919px) {
     .contact-us {
         top: 822px;
-    }
-    .contact-us__btn {
         font-size: 24px;
         line-height: 1.66;
     }
@@ -689,13 +685,11 @@ body {
 @media (max-width: 979px) {
     .contact-us {
         top: 512px;
-        padding: 5px;
-        max-width: 82px;
+        padding: 8px;
         background-color: #e7e2d1;
         border-radius: 10px 0px 0px 10px;
         text-align: center;
-    }
-    .contact-us__btn {
+
         font-size: 16px;
         line-height: 1.14;
         text-decoration-line: none;
