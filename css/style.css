@@ -138,7 +138,7 @@ body {
 .menu__item {}
 
 .menu__link {
-    font-family: var(--font-tenor);
+    font-family: var(--font-hamiltoneG);
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -386,6 +386,7 @@ body {
 }
 
 .categories__item {
+    font-family: var(--font-hamiltoneG);
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -415,6 +416,7 @@ body {
     align-items: center;
     gap: 20px;
 
+    font-family: var(--font-hamiltoneG);
     font-weight: 400;
     font-size: 40px;
     line-height: 1.17;
