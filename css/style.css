@@ -97,7 +97,7 @@ body {
     }
 }
 
-@media (max-width: 429px) {
+@media (max-width: 469px) {
     [class*="__container"] {
         max-width: 343px;
     }
@@ -199,7 +199,7 @@ body {
     }
 }
 
-@media (max-width: 429px) {
+@media (max-width: 469px) {
     .header__container {
         height: 72px;
     }
@@ -320,7 +320,7 @@ body {
     }
 }
 
-@media (max-width: 429px) {
+@media (max-width: 469px) {
     .decor {
         margin-top: 72px;
     }
@@ -372,7 +372,7 @@ body {
     }
 }
 
-@media (max-width: 429px) {
+@media (max-width: 469px) {
     .main {
         margin-top: 64px;
     }
@@ -467,7 +467,7 @@ body {
     }
 }
 
-@media (max-width: 429px) {
+@media (max-width: 469px) {
     .categories__list {
         justify-content: center;
         gap: 4px;
@@ -490,42 +490,32 @@ body {
 
 
 .products__container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-column-gap: 32px;
 }
 
-.products__box {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 32px;
-    padding-bottom: 88px;
-    border-bottom: 1px solid var(--color-black);
-
-}
 
 @media (max-width: 1919px) {
     .products {
         margin-top: 40px;
     }
-
-    .products__box {
-        width: 70%;
-        padding-bottom: 78px;
-    }
 }
 
 @media (max-width: 979px) {
+    .products__container {
+        grid-template-columns: repeat(2, 0fr);
+    }
+
     .products {
         margin-top: 12px;
     }
+}
 
-    .products__box {
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 0;
-        border: none;
+@media (max-width: 469px) {
+    .products__container {
+        grid-template-columns: 1fr;
+        justify-items: center
     }
 }
 
@@ -533,6 +523,9 @@ body {
 .product {
     /* flex: 1 1 371px; */
     max-width: 371px;
+    padding-top: 32px;
+    padding-bottom: 88px;
+    border-bottom: 1px solid var(--color-black);
 }
 
 .product__info {
@@ -706,7 +699,7 @@ body {
     }
 }
 
-@media (max-width: 429px) {
+@media (max-width: 469px) {
     .contact-us {
         top: 419px;
     }
