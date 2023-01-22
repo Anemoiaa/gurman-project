@@ -639,6 +639,15 @@ body {
     }
 }
 
+@media (max-width: 469px) {
+    .product {
+        max-width: 303px;
+    }
+    .product__image {
+        width: 100%;
+    }
+}
+
 .desc-btn:hover,
 .desc-btn:hover>.desc-btn__link {
     border-color: #8C2529;
