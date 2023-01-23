@@ -907,8 +907,8 @@ body {
 }
 
 .soc-media__icon {
-    width: 64px;
-    height: 64px;
+    width: 56px;
+    height: 56px;
 }
 
 .copyright {
@@ -1027,6 +1027,11 @@ body {
     margin-bottom: 194px;
 }
 
+.news-box__container .news:nth-child(2) {
+    margin-top: -130px;
+}
+
+
 .news-box__container .news:last-child {
     margin-bottom: 155px;
 }
@@ -1038,6 +1043,11 @@ body {
     .news-box__container .news:last-child {
         margin-bottom: 100px;
     }
+
+    .news-box__container .news:nth-child(2) {
+        margin-top: -150px;
+    }
+
 }
 
 .news__image {
