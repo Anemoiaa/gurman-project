@@ -918,8 +918,8 @@ body {
 
 @media (max-width: 1919px) {
     .soc-media__icon {
-        width: 58px;
-        height: 58px;
+        width: 45px;
+        height: 45px;
     }
 }
 
@@ -1027,11 +1027,19 @@ body {
     margin-bottom: 194px;
 }
 
+.news-box__container .news:last-child {
+    margin-bottom: 155px;
+}
+
 @media (max-width: 1919px) {
     .news {
         max-width: 672px;
     }
+    .news-box__container .news:last-child {
+        margin-bottom: 100px;
+    }
 }
+
 .news__image {
     width: 100%;
     border-radius: 15px;
